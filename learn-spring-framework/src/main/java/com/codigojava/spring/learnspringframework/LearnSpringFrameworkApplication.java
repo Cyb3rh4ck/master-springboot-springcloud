@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import com.codigojava.spring.learnspringframework.enterprise.example.MyWebController;
 import com.codigojava.spring.learnspringframework.gameloosecoupling.GameRunner;
 import com.codigojava.spring.learnspringframework.gameloosecoupling.GamingConsole;
 import com.codigojava.spring.learnspringframework.gameloosecoupling.MarioGame;
@@ -27,10 +28,10 @@ public class LearnSpringFrameworkApplication {
 //		GameRunner runner = new GameRunner(game);  //2
 		
 		GameRunner runner = context.getBean(GameRunner.class);
-		
 		runner.run();
 		
-		
+		MyWebController controller = context.getBean(MyWebController.class);
+		System.out.println(controller.returnValueFromBusinessService());
 	}
 
 }

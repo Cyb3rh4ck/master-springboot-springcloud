@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: learn-spring-boot
+
+logging:
+  level:
+    org:
+      springframework: trace
+
+currency-service:
+  url: http://dev.codigojava.com
+  username: devUsername
+  key: devKey

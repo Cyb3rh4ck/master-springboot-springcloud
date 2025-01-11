@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: learn-spring-boot
+
+#log
+logging:
+  level:
+    org:
+      springframework: info
+
+#configurationPrpoperties
+currency-service:
+  url: http://prod.codigojava.com
+  username: prodUsername
+  key: prodKey
+
+#actuator configuation
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - health
+        - metrics
+

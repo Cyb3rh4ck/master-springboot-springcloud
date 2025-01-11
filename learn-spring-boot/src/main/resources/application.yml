@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: learn-spring-boot
+  profiles:
+    active: prod
+
+#trace
+#debug
+#info
+#warning|
+#error
+#
+#off
+logging:
+  level:
+    org:
+      springframework: debug
+
+currency-service:
+  url: http://default.codigojava.com
+  username: dafaultusername
+  key: defaultkey
+
+
+

@@ -1,4 +1,4 @@
-package com.codigojava.rest.webservices.exception;
+package com.codigojava.rest.webservices.exceptions;
 
 import java.time.LocalDateTime;
 

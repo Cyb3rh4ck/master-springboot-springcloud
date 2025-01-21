@@ -1,4 +1,4 @@
-package com.codigojava.rest.webservices.exception;
+package com.codigojava.rest.webservices.exceptions;
 
 import java.time.LocalDateTime;
 
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.codigojava.rest.webservices.user.UserNotFoundException;
+import com.codigojava.rest.webservices.user.controllers.UserNotFoundException;
 
 @ControllerAdvice
 public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {

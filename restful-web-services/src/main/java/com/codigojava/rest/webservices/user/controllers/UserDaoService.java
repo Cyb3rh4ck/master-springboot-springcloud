@@ -1,4 +1,4 @@
-package com.codigojava.rest.webservices.user;
+package com.codigojava.rest.webservices.user.controllers;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.function.Predicate;
 
 import org.springframework.stereotype.Component;
+
+import com.codigojava.rest.webservices.helloworld.beans.User;
 
 @Component
 public class UserDaoService {

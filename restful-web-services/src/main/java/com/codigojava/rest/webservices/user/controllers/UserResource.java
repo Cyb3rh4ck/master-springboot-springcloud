@@ -1,4 +1,4 @@
-package com.codigojava.rest.webservices.user;
+package com.codigojava.rest.webservices.user.controllers;
 
 import java.net.URI;
 import java.util.List;
@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import com.codigojava.rest.webservices.helloworld.beans.User;
 
 import jakarta.validation.Valid;
 

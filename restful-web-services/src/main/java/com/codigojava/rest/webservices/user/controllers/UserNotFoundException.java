@@ -1,4 +1,4 @@
-package com.codigojava.rest.webservices.user;
+package com.codigojava.rest.webservices.user.controllers;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

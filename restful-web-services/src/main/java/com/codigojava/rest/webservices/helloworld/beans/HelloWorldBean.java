@@ -1,4 +1,4 @@
-package com.codigojava.rest.webservices.helloworld.bean;
+package com.codigojava.rest.webservices.helloworld.beans;
 
 public record HelloWorldBean(String message) {
 

@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.codigojava.rest.webservices.helloworld.bean.HelloWorldBean;
+import com.codigojava.rest.webservices.helloworld.beans.HelloWorldBean;
 
 @RestController
 public class HelloWorldController {

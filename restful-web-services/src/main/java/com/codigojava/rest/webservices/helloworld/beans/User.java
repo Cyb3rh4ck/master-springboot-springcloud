@@ -1,4 +1,4 @@
-package com.codigojava.rest.webservices.user;
+package com.codigojava.rest.webservices.helloworld.beans;
 
 import java.time.LocalDate;
 
